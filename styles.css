@@ -1,1 +1,22 @@
-styles
+/* Minimal custom styles for a vibrant look */
+.nav-link {
+  font-family: 'Source Sans Pro', sans-serif;
+  transition: color 0.3s ease;
+}
+
+.navbar-brand {
+  font-family: 'Coiny', cursive;
+  color: #ff004f !important; /* Hot pink color for a vibrant touch */
+}
+
+.nav-link:hover {
+  color: #ff8c00 !important; /* Orange glow on hover */
+}
+
+.nav-link:active {
+  color: #00e5ff !important; /* Cyan color on active */
+}
+
+body {
+  background-color: #1a1a1a; /* Dark background for a club-like atmosphere */
+}
