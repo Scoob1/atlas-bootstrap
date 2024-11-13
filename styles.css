@@ -20,3 +20,53 @@
 body {
   background-color: #1a1a1a; /* Dark background for a club-like atmosphere */
 }
+
+/* Banner Section */
+.banner {
+  background-image: url('https://example.com/edm-background.jpg'); /* Replace with an actual image URL */
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+}
+
+.banner::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(45deg, transparent 50%, rgba(0, 255, 234, 0.2) 50%);
+  background-size: 100% 100%;
+  opacity: 0.5;
+  animation: laser-animation 2s linear infinite;
+  z-index: 1;
+}
+
+.banner h1, .banner p {
+  position: relative;
+  z-index: 2;
+}
+
+@keyframes laser-animation {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 200% 200%;
+  }
+}
+
+/* Text Styling */
+.banner h1 {
+  font-family: 'Coiny', cursive;
+  color: #ff004f;
+}
+
+.banner p {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #ff8c00;
+}
