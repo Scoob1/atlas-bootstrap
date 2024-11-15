@@ -33,3 +33,5 @@ This project showcases my work in building a responsive EDM-themed portfolio usi
 ### 7. **Banner Section with EDM Background**
    - Set a captivating EDM-themed background image for the banner section to grab attention.
    - Added the quote "Feel the beat in your soul" in the banner for a personal touch.
+
+##Github Pages - https://scoob1.github.io/atlas-bootstrap/
